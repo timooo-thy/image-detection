@@ -1,0 +1,7 @@
+transformers==4.32.0
+python-dotenv==1.0.0
+tensorflow==2.13.0
+timm==0.9.5
+pillow==10.0.0
+torch==2.0.1
+streamlit==1.26.0
