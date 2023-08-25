@@ -1,6 +1,20 @@
 # Image Detection (Write Metadata) Streamlit App
 
-This Streamlit app allows you to upload images, detect objects in them, generate text descriptions, and add metadata to the images.
+Welcome to the Image Detection (Write Metadata) Streamlit App!
+
+With this Streamlit app, you can easily:
+
+-Upload images
+
+-Detect objects within them
+
+-Generate text descriptions
+
+-Add metadata to the images
+
+The models employed in this app are sourced from [Hugging Face](https://huggingface.co) and include "facebook/detr-resnet-50" for object detection and "Salesforce/blip-image-captioning-base" for text generation.
+
+👉 Give it a spin live: https://imagemetadata.streamlit.app
 
 ## Getting Started
 
@@ -57,4 +71,4 @@ Follow these steps to set up and run the Streamlit app on your local machine.
 
 ## Deploying to Production
 
-For deploying the app to a production environment, consider using platforms like Heroku or GitHub Pages. Be sure to adjust configurations and follow deployment instructions for your chosen platform.
+For deploying the app to a production environment, consider deploying from Streamlit. Be sure to adjust configurations and follow deployment instructions for your chosen platform.
