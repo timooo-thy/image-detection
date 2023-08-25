@@ -1,0 +1,25 @@
+# .gitignore
+
+# Python-specific
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Streamlit cache
+.cache/
+
+# Streamlit logs
+*.log
+
+# .env file (contains sensitive information)
+.env
+
