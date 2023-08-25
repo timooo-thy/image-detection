@@ -20,12 +20,12 @@ The models employed in this app are sourced from [Hugging Face](https://huggingf
 
 Follow these steps to set up and run the Streamlit app on your local machine.
 
-### Prerequisites
+## Prerequisites
 
 - Python (>=3.9)
 - pip (Python package manager)
 
-### Installation
+## Installation
 
 1. Clone this repository to your local machine:
 
@@ -44,7 +44,7 @@ Follow these steps to set up and run the Streamlit app on your local machine.
    ```bash
    pip install -r requirements.txt
 
-### Setup Environment Variables
+## Setup Environment Variables
 
 1. Create a `.env` file in the root directory of the project.
 
@@ -53,7 +53,7 @@ Follow these steps to set up and run the Streamlit app on your local machine.
 
 3. Make sure to include `.env` in your `.gitignore` file to keep your sensitive information secure.
 
-### Running the App
+## Running the App
 
 1. Open a terminal and navigate to the project directory.
 
