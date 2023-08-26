@@ -7,19 +7,17 @@ import io
 load_dotenv(find_dotenv())
 
 
-@st.cache
-def imgDetection(url):
+def imgDetection(_url):
     object_detection = pipeline("object-detection", model="facebook/detr-resnet-50")
 
-    results = object_detection(url)
+    results = object_detection(_url)
     return results
 
 
-@st.cache
-def imgToText(url):
+def imgToText(_url):
     object_detection = pipeline("image-to-text", model="Salesforce/blip-image-captioning-base")
 
-    results = object_detection(url)[0]["generated_text"]
+    results = object_detection(_url)[0]["generated_text"]
     return results
 
 
@@ -49,9 +47,6 @@ def main():
     if uploaded_file is not None:
         image = Image.open(uploaded_file)
         original_file_name = uploaded_file.name
-
-        # Resize down to original aspect ratio
-        image.thumbnail((500, 500))
 
         # Display the uploaded image as a preview
         st.image(image, caption="Uploaded Image", use_column_width=True)
