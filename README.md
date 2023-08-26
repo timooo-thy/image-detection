@@ -14,8 +14,6 @@ With this Streamlit app, you can easily:
 
 The models employed in this app are sourced from [Hugging Face](https://huggingface.co) and include "facebook/detr-resnet-50" for object detection and "Salesforce/blip-image-captioning-base" for text generation.
 
-👉 Give it a spin live: https://imagemetadata.streamlit.app
-
 ## Getting Started
 
 Follow these steps to set up and run the Streamlit app on your local machine.
