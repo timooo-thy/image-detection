@@ -28,8 +28,8 @@ Follow these steps to set up and run the Streamlit app on your local machine.
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/timooo-thy/imageDetection.git
-   cd imageDetection
+   git clone https://github.com/timooo-thy/image-detection.git
+   cd image-detection
 
 2. Create a virtual environment (recommended):
 
