@@ -70,3 +70,7 @@ Follow these steps to set up and run the Streamlit app on your local machine.
 ## Deploying to Production
 
 For deploying the app to a production environment, consider deploying from Streamlit. Be sure to adjust configurations and follow deployment instructions for your chosen platform.
+
+## Author
+
+©Timothy Lee
